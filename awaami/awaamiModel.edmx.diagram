@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="470731e94dc04981b11eeff1e6129407" Name="Diagram1">
+        <EntityTypeShape EntityType="db_awaamiModel.C__MigrationHistory" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.AspNetRole" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.AspNetUser" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.Authority" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.Issue" Width="1.5" PointX="10" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.Issue_category" Width="1.5" PointX="7.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.Location" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.Location_type" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.Person" Width="1.5" PointX="9.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.Sub_location" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.UnionCouncil" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_awaamiModel.database_firewall_rules" Width="1.5" PointX="7.75" PointY="10.75" IsExpanded="true" />
+        <AssociationConnector Association="db_awaamiModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="db_awaamiModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="db_awaamiModel.FK_Authority_Issue_category" ManuallyRouted="false" />
+        <AssociationConnector Association="db_awaamiModel.FK_Issue_Issue_category" ManuallyRouted="false" />
+        <AssociationConnector Association="db_awaamiModel.FK_Location_Location_type" ManuallyRouted="false" />
+        <AssociationConnector Association="db_awaamiModel.FK_Sub_location_Location_Leaf" ManuallyRouted="false" />
+        <AssociationConnector Association="db_awaamiModel.FK_Sub_location_Location_Root" ManuallyRouted="false" />
+        <AssociationConnector Association="db_awaamiModel.FK_UnionCouncil_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="db_awaamiModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
